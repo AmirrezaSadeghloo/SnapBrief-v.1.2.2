@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Outputs | SnapBrief</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">
+        <i class="fa-solid fa-bolt text-warning"></i> SnapBrief <small class="text-light">by ALYN</small>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="upload.html">Upload</a></li>
+          <li class="nav-item"><a class="nav-link active" href="outputs.html">Outputs</a></li>
+          <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="security.html">Security</a></li>
+          <li class="nav-item"><a class="nav-link" href="legal.html">Legal</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Outputs Section -->
+  <section class="container py-5">
+    <h2 class="text-center mb-4">What You Get Back</h2>
+    <p class="text-center text-muted">See live previews of what SnapBrief creates from your uploads</p>
+
+    <div class="row g-4 mt-4">
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fa-solid fa-file-lines text-primary me-2"></i>Executive Summary</h5>
+            <p class="card-text">Key takeaways from complex materials summarized into clear, bold bullets. Useful for leadership reporting and investor decks.</p>
+            <button class="btn btn-outline-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#summarySample">Preview</button>
+            <div class="collapse mt-3" id="summarySample">
+              <pre class="bg-light p-3 rounded">
+📌 Situation: Client churn increased by 8% in Q2.
+💡 Insight: CSAT fell due to onboarding issues.
+✅ Recommendation: Streamline onboarding workflow; launch proactive retention.
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fa-solid fa-envelope text-success me-2"></i>Client-Ready Email</h5>
+            <p class="card-text">Formatted, professional tone emails for external or internal updates. Structured for action.</p>
+            <button class="btn btn-outline-success btn-sm" data-bs-toggle="collapse" data-bs-target="#emailSample">Preview</button>
+            <div class="collapse mt-3" id="emailSample">
+              <pre class="bg-light p-3 rounded">
+Subject: Post-Meeting Summary — Onboarding Optimization
+
+Hi Alex,
+
+Thanks for today’s call. Key next steps:
+- Consolidate onboarding FAQs by next Thursday
+- Trial new walkthrough on 5 clients
+
+Let me know if you’d like a draft deck.
+Best,
+Dina
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fa-solid fa-diagram-project text-warning me-2"></i>Slide Outline</h5>
+            <p class="card-text">Consulting-style logic structure. Each slide broken down into point-driven content blocks.</p>
+            <button class="btn btn-outline-warning btn-sm" data-bs-toggle="collapse" data-bs-target="#slideSample">Preview</button>
+            <div class="collapse mt-3" id="slideSample">
+              <pre class="bg-light p-3 rounded">
+Slide 1: Churn Trend Overview
+- 8% churn spike in Q2
+- Root cause: onboarding
+
+Slide 2: Root Causes
+- FAQ inconsistency
+- No proactive support
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fa-solid fa-note-sticky text-danger me-2"></i>One-Pager</h5>
+            <p class="card-text">Perfect for strategy decks or client snapshots. Includes bold structure and compelling takeaway formatting.</p>
+            <button class="btn btn-outline-danger btn-sm" data-bs-toggle="collapse" data-bs-target="#onePagerSample">Preview</button>
+            <div class="collapse mt-3" id="onePagerSample">
+              <pre class="bg-light p-3 rounded">
+🟥 Title: Reducing Churn in Q3
+Problem: 8% churn from onboarding gaps
+Insight: FAQ automation reduces load by 35%
+Outcome: Retention lift of +12% expected
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-5">
+      <a href="upload.html" class="btn btn-lg btn-primary">Try Your Own File</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-light">
+    <p class="mb-1">&copy; 2025 SnapBrief. An ALYN Company.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
